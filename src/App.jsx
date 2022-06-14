@@ -1,4 +1,4 @@
-import Pomodoro from '../src/Pomodoro';
+import Pomodoro from './components/Pomodoro';
 import SApp from './style';
 
 function App() {

@@ -1,12 +1,13 @@
 import SPomodoro from './style';
+
 function Pomodoro() {
   return (
     <SPomodoro>
-      <div className='pomodoro'>
+      <div className='Pomodoro'>
         <div className='message'>
-          <p>C'est le moment de prendre une pause! prochaine session dans :</p>
+          <p>C'est la pause ! Prochaine session dans :</p>
         </div>
-        <div className='timer'>25:00</div>
+        <div className='timer'></div>
       </div>
     </SPomodoro>
   );
